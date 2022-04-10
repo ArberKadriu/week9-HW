@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 HW</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        section{
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container">
+                <a class="navbar-brand" href="#">This is a Nav Bar with bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="./home.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./next.html">Next Page</a>
+                    </li>               
+                </ul>            
+                </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6" id="table-content">
+                            <h2>A Table</h2>
+                            <p>This is a table styled with bootstrap:</p>            
+                            <table class="table table-dark table-hover">
+                                <thead>
+                                <tr>
+                                    <th>First column</th>
+                                    <th>Second column</th>
+                                    <th>Third column</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6" id="form-content">
+                            <h2>Page 1 Form</h2>
+                            <form>
+                                <div class="form-group">
+                                  <label>First Name</label>
+                                  <input type="text" class="form-control" placeholder="Enter First Name">
+                                </div>
+                                <div class="form-group">
+                                    <label>last Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter Last name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input type="text" class="form-control" placeholder="Enter the subject">
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-danger">Submit</button>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
